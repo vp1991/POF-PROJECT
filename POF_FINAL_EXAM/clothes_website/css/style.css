@@ -1,0 +1,89 @@
+ul
+{
+  list-style-type: none;
+  margin: 0;    
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;  
+}
+li{
+    float: left;
+  
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover:not(.active)
+{
+    background-color: #111;
+}
+.active 
+{
+    background-color: #04aa6d;
+}
+
+.signup-form
+{
+border: 5px solid #080808;
+display: flex;
+justify-content: center;
+    
+}
+.index-categories-list
+{
+    max-width: 70%;
+    min-height: 250px;
+    border: 1px solid black;
+    color: #04aa6d;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#fun    
+{
+    width: 250px;
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#serious
+{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(69, 67, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#excite
+{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(163, 97, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#boring
+{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(63, 177, 164);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
